@@ -1,0 +1,6 @@
+DB_SCHEMA=teste
+DB_USER=root
+DB_PASSWORD=root
+DB_SERVER=localhost
+PROD=1
+PORT=3001
