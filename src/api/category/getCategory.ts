@@ -4,13 +4,13 @@ import { GetCategory } from '../../user-case/Category/get/get-category';
 
 const categoryRepositoryProduction = new CategoryRepositoryProduction();
 
-const getTask = new GetCategory(
+const getCategory = new GetCategory(
     categoryRepositoryProduction
 );
 
 export default (req: Request, res: Response) => {
 
-    getTask
+    getCategory
         .execute()
         .then(value => { return res.status(200).json(value) })
         .catch(reason => { return res.status(500).json(reason) })

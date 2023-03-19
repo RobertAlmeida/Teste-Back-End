@@ -4,13 +4,13 @@ import { GetProduct } from '../../user-case/Product/get/get-product';
 
 const productRepositoryProduction = new ProductRepositoryProduction();
 
-const getTask = new GetProduct(
+const getCategory = new GetProduct(
     productRepositoryProduction
 );
 
 export default (req: Request, res: Response) => {
 
-    getTask
+    getCategory
         .execute()
         .then(value => { return res.status(200).json(value) })
         .catch(reason => { return res.status(500).json(reason) })

@@ -1,6 +1,6 @@
 import { describe, expect } from "vitest";
 import { ProductInterface } from "../../../database/Model/Product/Product";
-import { MockRepository } from "../../../repositories/in-memory-task/in-memory-task";
+import { MockRepository } from "../../../repositories/in-memory/in-memory";
 import { PutProduct } from "./put-product";
 
 describe("PutProduct should create", async () => {

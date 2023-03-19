@@ -1,13 +1,13 @@
 import { describe, expect } from "vitest";
-import { MockRepository } from "../../../repositories/in-memory-task/in-memory-task";
-import { GetCategory } from "./get-category";
+import { MockRepository } from "../../../repositories/in-memory/in-memory";
+import { GetProduct } from "./get-product";
 
 describe("GetCategory should create", async () => {
 
     const mockRepository = new MockRepository();
-    const getCategory = new GetCategory(mockRepository);
+    const get = new GetProduct(mockRepository);
 
-    const result = await getCategory.execute();
+    const result = await get.execute();
 
     expect(result).toBeDefined();
 });

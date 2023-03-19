@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import { ProductInterface } from "../../../database/Model/Product/Product";
-import { MockRepository } from "../../../repositories/in-memory-task/in-memory-task";
+import { MockRepository } from "../../../repositories/in-memory/in-memory";
 import { CreateProduct } from "./create-product";
 
 

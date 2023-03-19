@@ -1,5 +1,5 @@
 import { describe, expect } from "vitest";
-import { MockRepository } from "../../../repositories/in-memory-task/in-memory-task";
+import { MockRepository } from "../../../repositories/in-memory/in-memory";
 import { GetCategory } from "./get-category";
 
 describe("GetCategory should create a category", async () => {

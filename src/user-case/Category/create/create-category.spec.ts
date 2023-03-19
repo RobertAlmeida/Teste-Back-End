@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import { CategoryInterface } from "../../../database/Model/Category/Category";
-import { MockRepository } from "../../../repositories/in-memory-task/in-memory-task";
+import { MockRepository } from "../../../repositories/in-memory/in-memory";
 import { CreateCategory } from "./create-category";
 
 test("CreateCategory should create a category", async () => {
