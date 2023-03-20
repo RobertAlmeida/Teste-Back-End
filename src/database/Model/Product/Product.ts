@@ -34,7 +34,7 @@ Product.init(
         },
         id_category: {
             type: INTEGER,
-            allowNull: false
+            allowNull: true
         }
 
     }, {
