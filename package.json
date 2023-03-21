@@ -17,12 +17,12 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/sequelize": "^4.28.14",
     "sequelize-cli": "^6.5.2",
     "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2",
     "vitest": "^0.24.3"
   }
 }
